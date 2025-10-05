@@ -39,5 +39,5 @@ Each subfolder contains its own project with:
 ## 🚀 How to Run a Project
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/Python-Fundamentals.git
+git clone https://github.com/Prakhar2275/Python-Fundamentals.git
 
