@@ -1,0 +1,75 @@
+# ===============================
+# 🐍 Python Global .gitignore
+# ===============================
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+.qr_env/
+QR-code/
+qrcode_env/
+*/venv/
+*/env/
+*/ENV/
+*/.venv/
+*/Scripts/
+*/Lib/
+*/Include/
+*/pyvenv.cfg
+
+# Ignore all virtual environments inside subfolders
+**/venv/
+**/env/
+**/.venv/
+**/ENV/
+
+# --- Python Cache / Build Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS / Temp Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# --- Jupyter / Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Environment Configs / Local Secrets ---
+.env
+*.env
+*.ini
+*.cfg
+*.json
+
+# --- Other Unnecessary Files ---
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# --- PyInstaller / Compiled Executables ---
+*.spec
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Git backup files ---
+*~
